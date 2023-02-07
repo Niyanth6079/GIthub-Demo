@@ -24,7 +24,7 @@ function RepositoryDetailsPage(props) {
     return (
       <Fragment>
         <Head>
-          <title>Couldn't find the repository</title>
+          <title>Could not find the repository</title>
         </Head>
 
         <div className={classes.content}>

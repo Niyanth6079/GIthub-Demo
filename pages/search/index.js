@@ -7,6 +7,7 @@ import RepositorySearch from "@/components/Repository/RepositorySearch";
 
 import classes from "../../styles/RepositoryPage.module.css";
 import Head from "next/head";
+import Custom404 from "../404";
 
 function RepositoryListPage(props) {
   const [repositoryList, setReposioryList] = useState([]);
@@ -14,16 +15,16 @@ function RepositoryListPage(props) {
   const router = useRouter();
   const { keyword } = useRouter().query;
 
-  // render custom page when we get error when fetching data
-  if (props.errorCode) {
-    return <Custom404 statusCode={props.errorCode} />;
-  }
-
   const data = props.data.data.search.edges;
 
   useEffect(() => {
     setReposioryList(data);
   }, [data]);
+
+  // render custom page when we get error when fetching data
+  if (props.errorCode) {
+    return <Custom404 statusCode={props.errorCode} />;
+  }
 
   function pageHandler(index) {
     setPage(index);
