@@ -1,4 +1,4 @@
-import Header from "./header";
+import Header from "./Header";
 
 import classes from "./Layout.module.css";
 
