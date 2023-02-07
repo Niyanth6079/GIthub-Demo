@@ -1,0 +1,22 @@
+.content {
+  text-align: center;
+}
+
+.action {
+  padding: 1rem 0;
+}
+
+.button {
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #0c1d24;
+  border-radius: 12px;
+  background-color: #0c1d24;
+  color: #cfd0d4;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  background-color: #204f63;
+}

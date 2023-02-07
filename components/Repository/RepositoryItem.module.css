@@ -1,0 +1,33 @@
+.item {
+  margin: 1rem 0;
+}
+
+.title {
+  padding: 1rem;
+  font-size: 1.25rem;
+}
+
+.content {
+  padding: 1rem;
+  padding-top: 0;
+}
+
+.actions {
+  text-align: end;
+  padding: 1rem;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  color: #cfd0d4;
+  border: 1px solid #0c1d24;
+  background-color: #0c1d24;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #173f51;
+}

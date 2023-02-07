@@ -1,0 +1,40 @@
+.searchKeyword {
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: #cfd0d4;
+  border-radius: 6px;
+  border: 0.1px solid #0c1d24;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  color: #0c1d24;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.search label {
+  display: none !important;
+}
+
+.pagination {
+  padding: 0.5rem;
+  margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pagination span {
+  padding: 1rem;
+  border: 1px solid #cfd0d4;
+  cursor: pointer;
+  background-color: #0c1d24;
+  color: #cfd0d4;
+}
+
+.pagination span:hover,
+.pagination span:active {
+  background-color: #122f3b;
+}
+
+.pagination .active {
+  background-color: #184152;
+}
